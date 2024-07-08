@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovial Travels</title>
+    <link rel="shortcut-icon" type="x-icon" href="logo">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/carousels.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/3c9c98d793.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Martel+Sans:wght@600&family=Poppins:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="#"><img src="logo" alt="logo"></a></div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="nav-special"><a href="sign.html">Sign Up/Login</a></li>
+                <!-- <li class="nav-special"><a href="login.html">Login</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="background">
+            <div class="background-image">
+                <img src="background" alt="background">
+            </div>
+            <div class="background-content">
+                <h1>Welcome to our website</h1>
+                <p>Discover amazing places and book your trip now</p>
+                <a href="#" class="background-button">Book Now</a>
+            </div>
+        </section>
+        
+        <div class="container">
+            <div class="slider-wrapper">
+                <h1 class="top-destinations">Top 10 Destinations</h1> <!-- Added heading with class -->
+                <button id="prev-slide" class="slide-button material-symbols-rounded">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <ul class="image-list">
+                    <li class="image-item-wrapper">
+                        <img src="https://media.istockphoto.com/id/1495789530/photo/morning-blue-mountain.webp?b=1&s=170667a&w=0&k=20&c=OknEMVB2kYaAAERTCORPVANKqMeYpRZ5L8RAnIAFgHs=" alt="img-1">
+                        <div class="image-overlay">
+                            <h1>Manali</h1>
+                        </div>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2017/05/mahe-beach-kb060592.jpg?tr=w-400" alt="img-2">
+                        <div class="image-overlay">
+                            <h1>Pondicherry</h1>
+                        </div>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <img src="https://cdn.pixabay.com/photo/2017/05/10/13/39/ladakh-2300904_640.jpg" alt="img-3">
+                        <div class="image-overlay">
+                            <h1>Leh</h1>
+                        </div>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <img src="https://media1.thrillophilia.com/filestore/r7msudtgkmwvbh56dutf3wyj62jx_1679471785_shutterstock_1713456106.jpg.jpg" alt="img-4">
+                        <div class="image-overlay">
+                            <h1>Coorg</h1>
+                        </div>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <img src="https://www.sanatan.org/en/wp-content/uploads/sites/6/2017/12/Rameshwaram_600.jpg" alt="img-5">
+                        <div class="image-overlay">
+                            <h1>Rameshwaram</h1>
+                        </div>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <img src="Assets/tours-06.jpg" alt="img-6">
+                        <div class="image-overlay">
+                            <h1>Agra</h1>
+                        </div>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <img src="https://media.istockphoto.com/id/1224360439/photo/waiting-to-sail.jpg?s=612x612&w=0&k=20&c=XMtw1nX67rhb75bYZ4D_39WNkuHTaddHDjtsxz-2IJY=" alt="img-7">
+                        <div class="image-overlay">
+                            <h1>Lakshwadeep</h1>
+                        </div>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <img src="https://media.istockphoto.com/id/535570117/photo/golden-temple-in-amritsar-punjab-india.jpg?s=612x612&w=0&k=20&c=TAgZK64Qz6YsljOK1rXZrrW1u1YSlb9e_YBEmm2pfBw=" alt="img-8">
+                        <div class="image-overlay">
+                            <h1>Amritsar</h1>
+                        </div>	
+                    </li>
+                    <li class="image-item-wrapper">
+                        <img src="https://media.istockphoto.com/id/1127479843/photo/inside-of-the-hawa-mahal-or-the-palace-of-winds-at-jaipur-india-it-is-constructed-of-red-and.jpg?s=612x612&w=0&k=20&c=i60qAiU7pz_3QLtihXWeCb2aZllyQsBCnDkisXG7fwU=" alt="img-9">
+                        <div class="image-overlay">
+                            <h1>Jaipur</h1>
+                        </div>
+                    </li>
+                    <li class="image-item-wrapper">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Dal_LakeVR.jpg/640px-Dal_LakeVR.jpg" alt="img-10">
+                        <div class="image-overlay">
+                            <h1>Srinagar</h1>
+                        </div>
+                    </li>
+                </ul>
+                <button id="next-slide" class="slide-button material-symbols-rounded">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="slider-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <section class="about" id="About">
+                <h3>About Us</h3>
+                <p>Our company is dedicated to providing the best travel experiences to our customers. We specialize in creating custom itineraries that cater to each individual's interests and preferences.</p>
+            </section>
+            <!-- <div class="pages">
+                <div class="menu-items">
+                    <a href="index.html"><span class="decor">Home</span></a>
+                    <a href="about.html"><span class="decor">About</span></a>
+                    <a href="tours.html"><span class="decor">Our Tours</span></a>
+                    <a href="contact.html"><span class="decor">Contact</span></a>
+                </div>
+            </div> -->
+            <div class="logo_bot">
+                <img src="logo">
+                <h3>Subscribe to our Newsletter</h3>
+                <div class="newsletter">
+                    <input type="text" name="newsletter" value="" placeholder="Enter your email">
+                    <button type="submit" name="submit">Submit</button>
+                </div>
+                <div class="bottom-footer">
+                    <p id="customer">Customer satisfaction is our first priority</p><br>
+                    <p>Copyrights &copy <span id="copyrightYear">2024</span> Jovial Travels | Designed by <a href="#" style="text-decoration: none;">Harsh Agarwal</a></p>
+                </div>
+            </div>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="follow-social">
+                    <a href="#" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <a href="#" target="_blank" class="instagram"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                    <a href="#" target="_blank" class="twitter"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <!-- <button id="scrollUp" title="Go to top"><i class="fa fa-arrow-up"></i></button> -->
+    <a href="#" class="to-top"><i class="fa fa-arrow-up"></i></a>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: 2000,
+            delay: 300
+         });
+         ScrollReveal().reveal('.destination-grid', { delay: 500 , origin:'bottom'});
+         ScrollReveal().reveal('.populardest', { delay: 500 , origin:'left'});
+
+    </script>
+    <script type="text/javascript">
+		document.addEventListener('load', preLoader())
+
+		function preLoader() {
+			$("#preloader").delay(1000).fadeOut(1000);
+			$('body').removeClass('loading');
+		}
+	</script>
+</body>
+</html>
